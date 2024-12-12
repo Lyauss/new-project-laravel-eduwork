@@ -33,7 +33,7 @@ class Product extends Model
                     'description',
                     'price',
                     'rating',
-                    'brand',
+                    //'brand',
                     'category',
                     'thumbnail',
                 ]

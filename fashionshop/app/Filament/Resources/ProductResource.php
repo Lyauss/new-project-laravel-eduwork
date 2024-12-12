@@ -61,7 +61,7 @@ class ProductResource extends Resource
                     ->circular(),
 
                 //title
-                TextColumn::make('name')
+                TextColumn::make('title')
                     ->searchable()
                     ->sortable()
                     ->weight('medium')
@@ -71,7 +71,7 @@ class ProductResource extends Resource
                 TextColumn::make('brand')
                     ->searchable()
                     ->sortable()
-                    ->color('secondary')
+                    //->color('secondary')
                     ->alignLeft(),
 
                 //category
